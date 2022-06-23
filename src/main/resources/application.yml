@@ -52,7 +52,7 @@ spring:
           predicates:
             - Path=/deliveries/** 
         - id: product
-          uri: http://user20-product:8080
+          uri: http://user20-products:8080
           predicates:
             - Path=/inventories/** 
         - id: frontend
